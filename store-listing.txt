@@ -1,0 +1,112 @@
+# TEXTOS PARA CHROME WEB STORE
+# XPath Explorer — by Roberto Montaner
+# ─────────────────────────────────────────────────────────────────
+
+## NOMBRE DE LA EXTENSIÓN (máx. 45 caracteres)
+XPath Explorer
+
+
+## RESUMEN CORTO (máx. 132 caracteres)
+Evalúa expresiones XPath en tiempo real con highlight en página, presets inteligentes y autocompletado.
+
+
+## DESCRIPCIÓN COMPLETA (máx. 16.000 caracteres)
+
+XPath Explorer es la herramienta definitiva para evaluar expresiones XPath directamente sobre cualquier página web, sin salir del navegador.
+
+Diseñada para profesionales SEO, desarrolladores y analistas de datos que necesitan inspeccionar el DOM de manera rápida y precisa.
+
+──────────────────────────────
+✦ CARACTERÍSTICAS PRINCIPALES
+──────────────────────────────
+
+⚡ EVALUACIÓN EN TIEMPO REAL
+Escribe tu expresión y en 500ms los resultados aparecen en el panel y los nodos se resaltan directamente sobre la página. Sin botones. Sin esperas.
+
+🧠 AUTOCOMPLETADO INTELIGENTE CON CONTEXTO DE PÁGINA
+El autocompletado no es genérico: escanea la página actual y sugiere clases e IDs reales. Al escribir //div[ aparecen las clases CSS que existen en esa página concreta. Navega con ↑↓ y acepta con Tab.
+
+🎯 PRESETS EN DOS PASOS
+No hace falta saber XPath para empezar. Elige el tipo de elemento (nav, links, imágenes, inputs, formularios, headings…) y luego qué extraer (href, src, alt, texto, atributos específicos…). La expresión se construye sola. Incluye filtros por clase e ID.
+
+📌 PANEL LATERAL FIJO
+Funciona como Side Panel de Chrome: siempre visible mientras navegas. No se cierra al hacer clic en la página. Ideal para iterar rápidamente sobre una query mientras inspeccionas el resultado visualmente.
+
+🔍 SCROLL AL NODO
+Haz clic en cualquier resultado y la página hace scroll automático hasta el elemento con un flash amarillo de confirmación. Perfecto para localizar nodos en páginas largas.
+
+📋 COPIA LIMPIA PARA SHEETS/EXCEL
+Un clic copia todos los valores en lista limpia (uno por línea), lista para pegar en Google Sheets o Excel. También puedes copiar el texto interno, atributos específicos o el HTML completo de cada nodo.
+
+🔢 CONTADOR EN EL ICONO
+El badge del icono de Chrome muestra el número de resultados de la última query. De un vistazo sabes si tu expresión funciona.
+
+──────────────────
+✦ CASOS DE USO
+──────────────────
+
+• SEO Técnico: extrae URLs, títulos, meta descriptions, hreflang, canonical tags y cualquier dato del DOM para auditorías.
+• Web Scraping: prueba y refina expresiones XPath antes de usarlas en tus scripts.
+• QA y Testing: verifica la presencia y los valores de elementos específicos en diferentes páginas.
+• Desarrollo: inspecciona el DOM de forma más potente que el inspector habitual.
+• Análisis de contenido: extrae listas de elementos (links, imágenes, textos) para análisis.
+
+────────────────────
+✦ PRIVACIDAD
+────────────────────
+
+XPath Explorer no recopila, almacena ni transmite ningún dato. Todo el procesamiento ocurre localmente en tu navegador. Sin analítica, sin servidores externos, sin cookies.
+
+Más info: [enlace a Página inicio en GitHub Pages]
+Privacidad: [enlace a política de privacidad en GitHub Pages]
+
+────────────────────
+✦ PERMISOS
+────────────────────
+
+• activeTab: para evaluar XPath y resaltar nodos en la pestaña activa.
+• scripting: para inyectar el evaluador XPath en la página.
+• sidePanel: para mostrar la interfaz como panel lateral.
+
+──────────────────────────
+✦ SOBRE EL DESARROLLADOR
+──────────────────────────
+
+Creado por Roberto Montaner, especialista en SEO técnico.
+LinkedIn: https://www.linkedin.com/in/roberto-montaner-seo/
+
+
+## CATEGORÍA
+Developer Tools
+
+
+## IDIOMA
+Español (es)
+
+
+## ETIQUETAS SUGERIDAS (Chrome Web Store no tiene tags, pero para descripción SEO)
+xpath, xpath evaluator, xpath tester, seo tools, web scraping, dom inspector, developer tools, xml xpath, html xpath, xpath chrome extension
+
+
+## CAPTURAS DE PANTALLA RECOMENDADAS (1280x800 o 640x400)
+1. Panel abierto con una query //nav//a y resultados visibles + highlight en página
+2. Presets en dos pasos: elemento "links" seleccionado + "href →" seleccionado
+3. Autocompletado activo sugiriendo clases reales de la página
+4. Resultado expandido mostrando texto, atributos y HTML con botones de copia
+5. Badge del icono mostrando "12" resultados
+
+
+## IMAGEN PROMOCIONAL PEQUEÑA (440x280)
+Fondo navy #0F172A con el logo { } en amarillo #FACC15, nombre "XPath Explorer" en Syne 800 y tagline "Evalúa XPath en tiempo real"
+
+
+## URL DE SOPORTE / HOMEPAGE
+[Tu URL de GitHub Pages, ej: https://roberto-montaner.github.io/xpath-explorer]
+
+
+## NOTAS PARA REVISIÓN DE GOOGLE
+Esta extensión es una herramienta para desarrolladores que evalúa expresiones XPath en el DOM de páginas web.
+Permisos justificados:
+- activeTab y scripting son necesarios para acceder al DOM de la pestaña activa y ejecutar el evaluador XPath.
+- sidePanel es necesario para mostrar la interfaz como panel lateral persistente.
+La extensión no recopila ningún dato de usuario ni de navegación.

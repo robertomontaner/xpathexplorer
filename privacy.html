@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Política de Privacidad — XPath Explorer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=DM+Sans:wght@700;800&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    body { background:#0F172A; color:#F8FAFC; font-family:'Space Mono',monospace; padding:48px 24px; }
+    .wrap { max-width:680px; margin:0 auto; }
+    .back { display:inline-flex; align-items:center; gap:6px; color:#FACC15; text-decoration:none; font-size:12px; margin-bottom:40px; }
+    .back:hover { opacity:.8; }
+    h1 { font-family:'Syne',sans-serif; font-size:36px; font-weight:800; color:#FACC15; margin-bottom:8px; }
+    .date { font-size:12px; color:#475569; margin-bottom:40px; }
+    h2 { font-size:14px; font-weight:700; color:#F8FAFC; margin:32px 0 10px; text-transform:uppercase; letter-spacing:.8px; }
+    p { font-size:13px; color:#8094b0; line-height:1.9; margin-bottom:12px; }
+    .highlight { background:rgba(250,204,21,.06); border-left:3px solid #FACC15; padding:12px 16px; border-radius:0 6px 6px 0; margin:20px 0; }
+    .highlight p { color:#b8ccdf; margin:0; }
+    footer-line { display:block; margin-top:48px; padding-top:24px; border-top:1px solid #1e2d45; font-size:12px; color:#475569; }
+    a { color:#FACC15; }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <a href="index.html" class="back">← Volver</a>
+  <h1>Política de Privacidad</h1>
+  <p class="date">Última actualización: 6 de marzo de 2025</p>
+
+  <div class="highlight"><p>Resumen en una frase: XPath Explorer no recopila, almacena ni transmite ningún dato personal ni de uso. Todo ocurre localmente en tu navegador.</p></div>
+
+  <h2>1. Quién es el responsable</h2>
+  <p>Esta extensión ha sido desarrollada por Roberto Montaner. Para cualquier consulta relacionada con privacidad, puedes contactar a través de <a href="https://www.linkedin.com/in/roberto-montaner-seo/" target="_blank">LinkedIn</a>.</p>
+
+  <h2>2. Qué datos recopilamos</h2>
+  <p><strong>Ninguno.</strong> XPath Explorer no recopila, registra, transmite ni almacena ningún tipo de dato personal, de navegación, ni de uso.</p>
+  <p>La extensión no utiliza servicios de analítica, no envía peticiones a servidores externos y no guarda ningún historial de las expresiones XPath que evalúas.</p>
+
+  <h2>3. Permisos que utiliza la extensión</h2>
+  <p>La extensión solicita los siguientes permisos de Chrome, todos con un propósito funcional exclusivo:</p>
+  <p><strong>activeTab</strong> — Permite acceder al contenido de la pestaña activa para evaluar las expresiones XPath y resaltar los nodos encontrados. Solo se usa mientras el panel está abierto y el usuario ejecuta una query.</p>
+  <p><strong>scripting</strong> — Necesario para inyectar el script de evaluación XPath en la página activa. El script solo lee el DOM y nunca transmite datos fuera del navegador.</p>
+  <p><strong>sidePanel</strong> — Permite mostrar la interfaz de la extensión como panel lateral de Chrome.</p>
+
+  <h2>4. Acceso al contenido de las páginas</h2>
+  <p>Al evaluar una expresión XPath, la extensión lee el DOM de la página activa para encontrar y resaltar los nodos que coinciden. Esta lectura ocurre íntegramente en local, dentro de tu navegador. Ningún dato del contenido de las páginas que visitas es enviado a ningún servidor.</p>
+
+  <h2>5. Almacenamiento local</h2>
+  <p>La extensión no utiliza <code>localStorage</code>, <code>IndexedDB</code>, cookies ni ningún otro mecanismo de almacenamiento persistente. Al cerrar el panel, no queda ningún dato guardado.</p>
+
+  <h2>6. Servicios de terceros</h2>
+  <p>XPath Explorer no integra ningún servicio de terceros, SDK de analítica, pixel de seguimiento ni librería externa que pueda recopilar datos.</p>
+
+  <h2>7. Menores de edad</h2>
+  <p>Esta extensión es una herramienta técnica dirigida a desarrolladores y profesionales SEO. No está dirigida a menores de 13 años y no recopila datos de ningún usuario.</p>
+
+  <h2>8. Cambios en esta política</h2>
+  <p>Si en el futuro se realizaran cambios relevantes en esta política de privacidad, se actualizará la fecha de la misma y se comunicará en la página de la extensión en la Chrome Web Store.</p>
+
+  <h2>9. Contacto</h2>
+  <p>Para cualquier consulta sobre privacidad: <a href="https://www.linkedin.com/in/roberto-montaner-seo/" target="_blank">linkedin.com/in/roberto-montaner-seo</a></p>
+
+  <footer-line>XPath Explorer · <a href="index.html">Inicio</a></footer-line>
+</div>
+</body>
+</html>
