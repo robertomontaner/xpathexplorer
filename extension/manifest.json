@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "XPath Explorer",
   "version": "2.0.0",
-  "description": "Evalúa expresiones XPath en cualquier página web. Panel lateral siempre visible con highlight en tiempo real. Creado por Roberto Montaner (https://www.linkedin.com/in/roberto-montaner-seo/)",
+  "description": "Usa XPath en webs para inspección web. Panel lateral muy práctico. Por Roberto (https://www.linkedin.com/in/roberto-montaner-seo/)",
   "permissions": ["activeTab", "scripting", "sidePanel"],
   "background": {
     "service_worker": "background.js"

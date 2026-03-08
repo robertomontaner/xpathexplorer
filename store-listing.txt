@@ -46,7 +46,7 @@ El badge del icono de Chrome muestra el número de resultados de la última quer
 ──────────────────
 
 • SEO Técnico: extrae URLs, títulos, meta descriptions, hreflang, canonical tags y cualquier dato del DOM para auditorías.
-• Web Scraping: prueba y refina expresiones XPath antes de usarlas en tus scripts.
+• Web Inspecting: prueba y refina expresiones XPath antes de usarlas en tus scripts.
 • QA y Testing: verifica la presencia y los valores de elementos específicos en diferentes páginas.
 • Desarrollo: inspecciona el DOM de forma más potente que el inspector habitual.
 • Análisis de contenido: extrae listas de elementos (links, imágenes, textos) para análisis.
@@ -57,8 +57,8 @@ El badge del icono de Chrome muestra el número de resultados de la última quer
 
 XPath Explorer no recopila, almacena ni transmite ningún dato. Todo el procesamiento ocurre localmente en tu navegador. Sin analítica, sin servidores externos, sin cookies.
 
-Más info: [enlace a Página inicio en GitHub Pages]
-Privacidad: [enlace a política de privacidad en GitHub Pages]
+Más info: https://robertomontaner.github.io/xpathexplorer/
+Privacidad: https://robertomontaner.github.io/xpathexplorer/privacy.html
 
 ────────────────────
 ✦ PERMISOS
@@ -85,7 +85,7 @@ Español (es)
 
 
 ## ETIQUETAS SUGERIDAS (Chrome Web Store no tiene tags, pero para descripción SEO)
-xpath, xpath evaluator, xpath tester, seo tools, web scraping, dom inspector, developer tools, xml xpath, html xpath, xpath chrome extension
+xpath, xpath evaluator, xpath tester, seo tools, web inspection, dom inspector, developer tools, xml xpath, html xpath, xpath chrome extension
 
 
 ## CAPTURAS DE PANTALLA RECOMENDADAS (1280x800 o 640x400)
